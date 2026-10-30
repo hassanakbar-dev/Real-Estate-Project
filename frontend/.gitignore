@@ -8,25 +8,29 @@ pnpm-debug.log*
 lerna-debug.log*
 
 # Dependencies & Build folders
-node_modules
-backend/node_modules
-frontend/node_modules
-dist
-dist-ssr
-build
+node_modules/
+backend/node_modules/
+frontend/node_modules/
+dist/
+dist-ssr/
+build/
 *.local
 
 # Environment variables & Sensitive files
 .env
 .env.*
 
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
+# Editor directories and extra files (Jo root mein show nahi honi chahiye)
+.vscode/
+.idea/
 .DS_Store
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
+
+# Root level configuration or package files agar upload nahi karni
+package.json
+package-lock.json
+README.md
